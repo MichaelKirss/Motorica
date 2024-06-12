@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/Aquamarine"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/MediumSlateBlue"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Motorica"
+            app:titleTextColor="@android:color/black"
+            app:menu="@menu/top_app_bar"
+            android:onClick="onClickToast"
+            app:navigationIcon="@drawable/baseline_format_list_bulleted_24"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--Image view in which image will be set-->
+    <ImageSwitcher
+        android:id="@+id/imagesIs"
+        android:layout_width="400dp"
+        android:layout_height="400dp"/>
+    <!--Show previous image on ImageSwitcher clicking this button-->
+    <Button
+        android:id="@+id/previousBtn"
+        android:text="Previous"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@id/imagesIs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--Show Next image on ImageSwitcher clicking this button-->
+    <Button
+        android:id="@+id/nextBtn"
+        android:text="Next"
+        android:layout_alignParentEnd="true"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagesIs"/>
+    <!--Pick images clicking this button-->
+    <Button
+        android:id="@+id/pickImagesBtn"
+        android:text="Pick Images"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</LinearLayout>

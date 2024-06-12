@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/grand"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="true"
+    android:background="@android:drawable/screen_background_light_transparent"
+    android:contextClickable="false"
+    android:fitsSystemWindows="true"
+    android:focusable="auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".GrandActivity"
+    tools:layout_editor_absoluteY="25dp">
+    <LinearLayout
+        android:id="@+id/choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.088"
+        tools:layout_editor_absoluteX="26dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/robotomedium"
+        android:text="@string/under_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/choice"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/robotobold"
+        android:text="@string/avialable_func"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <Switch
+        android:id="@+id/switch9"
+        android:layout_width="313dp"
+        android:layout_height="13dp"
+        android:layout_weight="1"
+        android:shadowColor="@color/light_green"
+        android:text="Фото"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="313dp"
+        android:layout_height="13dp"
+        android:layout_weight="1"
+        android:text="Фото"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="173dp" />
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="313dp"
+        android:layout_height="13dp"
+        android:layout_weight="1"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="313dp"
+        android:layout_height="13dp"
+        android:layout_weight="1"
+        android:text="Фото"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <Switch
+        android:id="@+id/switch8"
+        android:layout_width="313dp"
+        android:layout_height="13dp"
+        android:layout_weight="1"
+        android:text="Фото"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="313dp"
+        android:layout_height="13dp"
+        android:layout_weight="1"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="313dp"
+        android:layout_height="13dp"
+        android:layout_weight="1"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300sp"
+        android:layout_height="64sp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="15sp"
+        android:backgroundTint="@color/motorika_green"
+        android:onClick="onClickButton1"
+        android:text="@string/save"
+        android:textColor="@color/deep_black"
+        app:toggleCheckedStateOnClick="false"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="163dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="116dp"
+        android:fontFamily="@font/robotobold"
+        android:paddingTop="7dp"
+        android:text="@string/title_choice"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="67dp"
+        android:layout_height="35dp"
+        android:backgroundTint="@color/cover_gray"
+        android:fontFamily="@font/robotobold"
+        android:paddingVertical="5dp"
+        android:text="@string/back"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

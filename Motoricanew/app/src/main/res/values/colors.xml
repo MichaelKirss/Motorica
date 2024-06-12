@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="motorika_white">#FFFFFFFF</color>
+    <color name="bright_green">#D3FF52</color>
+    <color name="light_green">#ECFFB5</color>
+    <color name="motorika_green">#9EC800</color>
+    <color name="motorika_black">#343333</color>
+    <color name="Motorika_bg_gray">#F8F8F8</color>
+    <color name="deep_black">#010101</color>
+    <color name="icon_deactive">#B9B9B9</color>
+    <color name="cover_gray">#E6E9E8</color>
+
+</resources>

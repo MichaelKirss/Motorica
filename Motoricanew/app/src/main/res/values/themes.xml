@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MotoricaNew" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimaryVariant">@color/motorika_green</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/motorika_white</item>
+        <item name="colorOnSecondary">@color/deep_black</item>
+        <item name="android:colorPrimaryDark">@color/motorika_green</item>
+
+
+    </style>
+
+
+
+</resources>

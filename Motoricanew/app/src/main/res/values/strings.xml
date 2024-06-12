@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Motorica new</string>
+    <string name="choose_image">Motorica new</string>
+    <string name="short_hand">Starting menu</string>
+    <string name="grand_menu">Main menu</string>
+    <string name="title">Title</string>
+    <string name="title_text">бери максимум от протеза</string>
+    <string name="logo">logotype</string>
+    <string name="choise">Выбор Функций</string>
+    <string name="set_sign">Настройки жестов</string>
+    <string name="title_choice">Выбор функций</string>
+    <string name="back">&lt;</string>
+    <string name="avialable_func">Доступные функции</string>
+    <string name="save">Сохранить</string>
+    <string name="under_title">Здесь можно выбрать и включить фунуции для управления с протеза</string>
+</resources>
